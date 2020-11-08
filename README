@@ -1,0 +1,41 @@
+itay.shukrun
+
+
+=============================
+=      File description     =
+=============================
+Locker - Objcet that can contain different types of items
+
+LongTermStorage - Object with 1000 capacity to store items
+
+StorageUnite - Parent class to locker and LTS
+
+LockerTest - Test for locker class
+
+LongTermTest - Test for LTS class
+
+SpaceshipDepositoryTest - Runs both the LTS and locker tests
+
+BoopingSite - A site that can give you hotels by rating 
+proximy and rating and proximity!
+
+BoopingSiteTest - Test for BoopingSite
+
+=============================
+=          Design           =
+=============================
+I implement StorageUnite as a parent class for locker and 
+LTS because they had much functions in common,
+At the locker and LTS tests I reset the lockers capacity
+by the before command.
+At Booping site I used Manali as the city for my tests.
+
+=============================
+=  Implementation details   =
+=============================
+Tried to seperate as much as I could my test,
+so that each test will check every function the class have.
+
+=============================
+=    Answers to questions   =
+=============================
